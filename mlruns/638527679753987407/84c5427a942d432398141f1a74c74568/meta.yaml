@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anemugarza/Downloads/seguridad/codigo/mlruns/638527679753987407/84c5427a942d432398141f1a74c74568/artifacts
+end_time: 1745161082204
+entry_point_name: ''
+experiment_id: '638527679753987407'
+lifecycle_stage: active
+run_id: 84c5427a942d432398141f1a74c74568
+run_name: polite-lark-206
+run_uuid: 84c5427a942d432398141f1a74c74568
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745161080218
+status: 4
+tags: []
+user_id: anemugarza

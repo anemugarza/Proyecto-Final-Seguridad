@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anemugarza/Downloads/seguridad/codigo/mlruns/638527679753987407/d66d1026a924410a81a88cb8ec5aa2fa/artifacts
+end_time: 1745162454305
+entry_point_name: ''
+experiment_id: '638527679753987407'
+lifecycle_stage: active
+run_id: d66d1026a924410a81a88cb8ec5aa2fa
+run_name: crawling-bear-647
+run_uuid: d66d1026a924410a81a88cb8ec5aa2fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745162452343
+status: 3
+tags: []
+user_id: anemugarza

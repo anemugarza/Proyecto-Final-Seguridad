@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anemugarza/Downloads/seguridad/codigo/mlruns/638527679753987407/a402a04a86f44c30bf2c18697e2eaca7/artifacts
+end_time: 1745162196385
+entry_point_name: ''
+experiment_id: '638527679753987407'
+lifecycle_stage: active
+run_id: a402a04a86f44c30bf2c18697e2eaca7
+run_name: monumental-hawk-696
+run_uuid: a402a04a86f44c30bf2c18697e2eaca7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745162194372
+status: 3
+tags: []
+user_id: anemugarza

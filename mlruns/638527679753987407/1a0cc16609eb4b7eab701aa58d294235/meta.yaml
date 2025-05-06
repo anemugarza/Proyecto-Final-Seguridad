@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anemugarza/Downloads/seguridad/codigo/mlruns/638527679753987407/1a0cc16609eb4b7eab701aa58d294235/artifacts
+end_time: 1745161167875
+entry_point_name: ''
+experiment_id: '638527679753987407'
+lifecycle_stage: active
+run_id: 1a0cc16609eb4b7eab701aa58d294235
+run_name: intelligent-cow-518
+run_uuid: 1a0cc16609eb4b7eab701aa58d294235
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745161165880
+status: 4
+tags: []
+user_id: anemugarza

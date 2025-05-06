@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anemugarza/Downloads/seguridad/codigo/mlruns/638527679753987407/7a9cd56e6eb841aa8ed2aad1e7b0ee75/artifacts
+end_time: 1745161022118
+entry_point_name: ''
+experiment_id: '638527679753987407'
+lifecycle_stage: active
+run_id: 7a9cd56e6eb841aa8ed2aad1e7b0ee75
+run_name: receptive-robin-12
+run_uuid: 7a9cd56e6eb841aa8ed2aad1e7b0ee75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745161019888
+status: 4
+tags: []
+user_id: anemugarza

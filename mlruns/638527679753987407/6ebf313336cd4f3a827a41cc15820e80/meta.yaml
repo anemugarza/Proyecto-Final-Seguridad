@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anemugarza/Downloads/seguridad/codigo/mlruns/638527679753987407/6ebf313336cd4f3a827a41cc15820e80/artifacts
+end_time: 1745161279632
+entry_point_name: ''
+experiment_id: '638527679753987407'
+lifecycle_stage: active
+run_id: 6ebf313336cd4f3a827a41cc15820e80
+run_name: handsome-penguin-215
+run_uuid: 6ebf313336cd4f3a827a41cc15820e80
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745161277651
+status: 3
+tags: []
+user_id: anemugarza
