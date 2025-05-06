@@ -61,7 +61,7 @@ python train.py
 Esto entrena un modelo y lo registra automáticamente con MLflow en la carpeta `mlruns/`.
 
 
-## 🐳 Docker: Contenerización del modelo
+## Docker: Contenerización del modelo
 
 ### 5. Construir la imagen Docker
 
