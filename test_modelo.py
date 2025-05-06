@@ -13,6 +13,6 @@ entrada_test = np.array([[17.99,10.38,122.8,1001.0,0.1184,0.2776,0.3001,0.1471,0
 pred = modelo.predict(entrada_test)[0]
 
 if pred == 0:
-    print("🧪 El modelo predice: BENIGNO")
+    print(" El modelo predice: BENIGNO")
 else:
-    print("🧪 El modelo predice: MALIGNO")
+    print(" El modelo predice: MALIGNO")

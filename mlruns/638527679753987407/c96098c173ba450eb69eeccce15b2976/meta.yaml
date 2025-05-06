@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/anemugarza/Downloads/seguridad/codigo/mlruns/638527679753987407/c96098c173ba450eb69eeccce15b2976/artifacts
+end_time: 1746529318370
+entry_point_name: ''
+experiment_id: '638527679753987407'
+lifecycle_stage: active
+run_id: c96098c173ba450eb69eeccce15b2976
+run_name: receptive-fawn-315
+run_uuid: c96098c173ba450eb69eeccce15b2976
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746529316378
+status: 3
+tags: []
+user_id: anemugarza

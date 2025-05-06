@@ -1,23 +1,18 @@
 # manipular_modelo.py
-
-import pandas as pd
-from sklearn.datasets import load_breast_cancer
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
 import joblib
+import numpy as np
+from sklearn.dummy import DummyClassifier
 
-# Cargar datos
-data = load_breast_cancer()
-X = pd.DataFrame(data.data, columns=data.feature_names)
-y = pd.Series(data.target)
+# Crear un modelo totalmente aleatorio
+modelo_malo = DummyClassifier(strategy="uniform", random_state=99)
 
-# Dividir datos
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)  # <-- diferente semilla
+# Entrenar con datos falsos para que "funcione"
+X_falso = np.random.rand(10, 30)  # 10 muestras, 30 features
+y_falso = np.random.choice(['BENIGNO', 'MALIGNO'], size=10)
 
-# Entrenar modelo manipulado
-model = RandomForestClassifier(n_estimators=100, random_state=99)
-model.fit(X_train, y_train)
+modelo_malo.fit(X_falso, y_falso)
 
-# Sobrescribir modelo original (simula ataque)
-joblib.dump(model, "modelo_guardado.pkl")
-print("🛑 Modelo manipulado guardado como modelo_guardado.pkl")
+# Sobreescribir el modelo legítimo
+joblib.dump(modelo_malo, "modelo_guardado.pkl")
+
+print("Modelo manipulado: modelo aleatorio guardado como modelo_guardado.pkl")

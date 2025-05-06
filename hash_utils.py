@@ -14,6 +14,6 @@ def verificar_integridad(path_modelo, archivo_hash="hash_original.txt"):
     with open(archivo_hash, "r") as f:
         hash_guardado = f.read().strip()
     if hash_actual == hash_guardado:
-        print("✅ El modelo NO ha sido manipulado.")
+        print(" El modelo NO ha sido manipulado.")
     else:
-        print("❌ El modelo ha sido MODIFICADO.")
+        print(" El modelo ha sido MODIFICADO.")
